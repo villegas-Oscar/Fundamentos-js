@@ -4,8 +4,8 @@ html{
 
 
 *,
-*::before
-*::after{
+*:before
+*:after{
     box-sizing: inherit;
 }
 
@@ -62,5 +62,5 @@ body{
 }
 .btn-success{
     color: black;
-    background-color: #f4a;
+    background-color: #f4a261;
 }
