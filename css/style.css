@@ -1,0 +1,66 @@
+html{
+    box-sizing: border-box;
+}
+
+
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+}
+
+
+body{
+      font-family: "Bungee", sans-serif;
+
+
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95px;
+    max-width: 600px;
+
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #264653;
+
+
+}
+
+.btn-secundary{
+    color: white;
+    background-color: #2a9d8f;
+}
+
+.btn-danger{
+    color: white;
+    background-color: red;
+
+}
+
+.btn-info{
+    color: black;
+    background-color: #e9c46a;
+
+}
+.btn-success{
+    color: black;
+    background-color: #f4a;
+}
