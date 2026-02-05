@@ -24,7 +24,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    max-width: 600px;
+    max-width: 1000px;
 
 }
 
@@ -63,4 +63,48 @@ body{
 .btn-success{
     color: black;
     background-color: #f4a261;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding: .5em;
+    background-color: #264653;   
+}
+
+.card{
+    width: 300px;
+    background-color: #2a9d8f;
+    color: white;
+    overflow: hidden;
+    border-radius: .5em;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-body{
+    padding: 1em;
+}
+
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 700;
+}
+
+.card-body p {
+    font-weight: 300;
+}
+
+.articulos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
 }
